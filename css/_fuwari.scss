@@ -1,0 +1,46 @@
+img {
+  max-width: 100%;
+  width: 50%;
+}
+
+h2 {
+  margin-bottom: 100px;
+}
+
+.container {
+  text-align: center;
+  padding-top: 40rem;
+}
+
+.mb-600 {
+  margin-bottom: 600px;
+}
+
+.fadein {
+  opacity: 0;
+  transform: translate(0, 80px); //(x軸,y軸)
+  transition: all 1000ms; //transitionは時間変化
+}
+
+.fadein.left {
+  transform: translate(-80px, 0);
+}
+
+.fadein.right {
+  transform: translate(80px, 0);
+}
+
+.fadein.top {
+  transform: translate(0px, -80px);
+}
+.fadein.kururi {
+  transform: rotate(0.8turn);
+}
+
+.fadein.scrollin {
+  opacity: 1; //不透明度は最大値１。０が完全な透明
+  transform: translate(
+    0,
+    0
+  ); //座標00を起点としてx、y軸にどれだけ動いたかということ
+}
