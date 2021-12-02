@@ -91,4 +91,22 @@ video {
   top: 0%;
   height: 100vh;
 }
+
+.bgtest {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
+
+.bgimg {
+  width: 20vh;
+  height: auto;
+  position: absolute;
+  left: 30%;
+  top: 60%;
+}
+
+.bg02 {
+  padding: 30px;
+}
 /*# sourceMappingURL=style.css.map */
