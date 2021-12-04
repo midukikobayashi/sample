@@ -1,0 +1,34 @@
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgcontainer:hover img {
+  opacity: 0.6;
+}
+
+.hover01 {
+  position: relative;
+  overflow: hidden;
+
+  .text {
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+  }
+  .mask {
+    position: absolute; //hover01に対しての絶対位置
+    opacity: 0; //マスクを表示しない
+    background-color: rgba(0, 0, 0, 0.418); //マスクは半透明
+    width: 100%;
+    height: 100%;
+    transition:		all 0.2s ease;
+  }
+}
+.hover01:hover .mask {
+  opacity: 1;
+}

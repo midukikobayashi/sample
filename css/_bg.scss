@@ -2,15 +2,21 @@
   background-color: black;
   height: 100vh;
   position: relative;
+  text-align: center;
 }
-.bgimg{
+.bgimg {
   width: 20vh;
   height: auto;
   position: absolute;
   left: 30%;
-  top:60%
-}
-.bg02{
-  padding: 30px;
+  top: 60%;
   
+}
+.bg02 {
+}
+.text {
+  color: white;
+  font-size: 3rem;
+  
+  font-family: sans-serif;
 }

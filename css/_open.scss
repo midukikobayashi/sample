@@ -33,3 +33,17 @@ video {
   top: 0%;
   height: 100vh;
 }
+
+//文字中央配置
+.toptext {
+  
+  position: absolute;
+  color: aliceblue;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%); //これ大事
+
+  font-size: 4rem;
+}
+

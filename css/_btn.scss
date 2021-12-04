@@ -1,0 +1,36 @@
+.btn01 {
+  font-size: 2rem;
+  margin: 3rem;
+  border: solid brown;
+  background-color: burlywood;
+}
+.btn01:hover {
+  background-color: chocolate;
+  color: cornsilk;
+}
+
+.btn02 {
+  font-size: 2rem;
+  margin: 3rem;
+  border: solid brown;
+  background-color: burlywood;
+  text-decoration: none;
+}
+.btn02:hover {
+  background-color: chocolate;
+  color: cornsilk;
+}
+
+.btn03 {
+  font-size: 2rem;
+  margin: 3rem;
+  border: solid brown;
+  background-color: burlywood;
+  text-decoration: none;
+}
+.btn03:hover {
+  background-color: chocolate;
+  color: cornsilk;
+  transition: 0.8s;
+}
+
