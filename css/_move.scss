@@ -1,0 +1,21 @@
+.move{
+  margin: 3rem;
+  background-color: cadetblue;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  animation-duration: 5s;//何秒間
+ animation-name: move01;//名前の定義
+ animation-iteration-count: infinite;//何回も繰り返す
+}
+//動きの指定
+@keyframes move01{
+  0%   { transform:translate(0%, 0%); 
+  opacity: 0;}
+  40% { transform:translate(0%, -30px);
+  opacity: 1; }
+  100%   { transform:translate(0%, 0%); 
+    opacity: 0;}
+
+}

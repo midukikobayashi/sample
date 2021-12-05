@@ -229,4 +229,59 @@ video {
   background-color: darkgoldenrod;
   color: black;
 }
+
+.move {
+  margin: 3rem;
+  background-color: cadetblue;
+  height: 200px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: move01;
+          animation-name: move01;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes move01 {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: translate(0%, -30px);
+            transform: translate(0%, -30px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    opacity: 0;
+  }
+}
+
+@keyframes move01 {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: translate(0%, -30px);
+            transform: translate(0%, -30px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    opacity: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
