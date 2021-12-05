@@ -34,3 +34,19 @@
   transition: 0.8s;
 }
 
+.btn04{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  background-color: darkblue;
+  transition-property: background-color,color;//どの要素を変化させたいかの指定
+  transition-duration: 4s;//何秒間かけて変化するか
+  text-decoration: none;//リンクの線消す
+  margin: 3px;
+  padding: 3px;
+}
+.btn04:hover{
+  background-color: darkgoldenrod;
+  color: black;
+
+}

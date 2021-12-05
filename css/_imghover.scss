@@ -9,26 +9,30 @@
 .imgcontainer:hover img {
   opacity: 0.6;
 }
-
-.hover01 {
+.h01 {
+  width: 100%;
+}
+.imghover01 {
   position: relative;
-  overflow: hidden;
+  width: 50%;
+  display: flex;
 
-  .text {
-    color: aliceblue;
+  .hovertext {
+    color: rgb(241, 237, 238);
+    transition: 1s;
     text-align: center;
-    font-size: 2rem;
-    font-family: sans-serif;
+    padding: 30%;
   }
   .mask {
-    position: absolute; //hover01に対しての絶対位置
-    opacity: 0; //マスクを表示しない
-    background-color: rgba(0, 0, 0, 0.418); //マスクは半透明
+    position: absolute;
     width: 100%;
     height: 100%;
-    transition:		all 0.2s ease;
+    top: 0;
+    opacity: 0; //最初は見えない
+    background-color: rgba(0, 0, 0, 0.37);
+    transition: 1s; //何秒間かけて変化するのか
   }
-}
-.hover01:hover .mask {
-  opacity: 1;
+  .mask:hover.mask {
+    opacity: 1;
+  }
 }
